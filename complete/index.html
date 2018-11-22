@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Custom file upload button</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,700,700i" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/master.css">
+    </head>
+    <body>
+        <div class="page-body">
+            <div class="full-height">
+                <div class="centered">
+                    <h1>Register your fictitious account</h1>
+                    <form action="index.html" method="post">
+                        <div class="form-element">
+                            <input type="text" name="" value="" placeholder="Name" id="name">
+                            <label for="name"><i class="fas fa-signature"></i></label>
+                        </div>
+                        <div class="form-element">
+                            <input type="email" name="" value="" placeholder="Email" id="email">
+                            <label for="email"><i class="fas fa-envelope"></i></label>
+                        </div>
+                        <div class="form-element">
+                            <input type="password" name="" value="" placeholder="Password" id="password">
+                            <label for="password"><i class="fas fa-lock"></i></label>
+                        </div>
+                        <div class="form-element">
+                            <label for="file" class="file-upload">
+                                <div class="file-label">Profile Photo</div>
+                                <span class="file-btn"><i class="fas fa-user mr-half"></i> Browse...</span>
+                                <input type="file" name="" value="" id="file" multiple>
+                                <span class="file-value">No file selected</span>
+                            </label>
+                        </div>
+                        <div class="">
+                            <button type="submit" class="btn">Sign Up <i class="fab fa-telegram-plane ml-half"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
